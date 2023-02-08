@@ -34,7 +34,6 @@ def arrangements (n, k):
 print(arrangements( 20, 5))    
 
 '''Перестановки'''
-
 def permutation(n):
     return factorial(n)
 print(permutation(5))      
