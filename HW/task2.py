@@ -63,5 +63,7 @@ b = combination(7, 1) * combination(3, 1) / combination(10, 2) * combination(9, 
 c = combination(3, 2) / combination(10, 2) * combination(9, 2) / combination(11, 2)
 print(f'вероятность того, что ровно два мяча белые = {a + b + c}')
 
+print(f'вероятность  = {combination(7, 2) / combination(10, 2) * combination(2, 2) / combination(11, 2)+ combination(7, 1) * combination(3, 1) / combination(10, 2) + combination(9, 1) * combination(2, 1)/ combination(11, 2) + combination(3, 2) / combination(10, 2) * combination(9, 2) / combination(11, 2)}')
+
 d = combination(3, 2) / combination(10, 2) * combination(2, 2) / combination(11, 2)
 print(f'вероятность того, что хотя бы один мяч белый = {1 - d}')
